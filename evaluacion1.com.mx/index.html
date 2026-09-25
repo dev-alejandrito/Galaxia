@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+<head><link rel="stylesheet" href="css/bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.csss">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVALUACION 1</title>
-    <!-- Enlace a tu archivo de estilos -->
-    <link rel="stylesheet" href="foto.css">
+    
+ 
+<link rel="stylesheet" href="misestilos/foto.css">
 </head>
 <body>
-
+<div class="MENU">
+<nav>
+    <a class="btn btn-default" href="index.html">HOME</a>
+<a class="btn btn-default" href="snacks.html">SNACKS</a>
+<a class="btn btn-default" href="comida.html">COMIDA</a>
+<a class="btn btn-default" href="contacto.html">CONTACTO</a>
+</div>
+</nav>
     <h1>ORTIZ CALLES ALEJANDRO JOAHANN</h1>
     <h4>5IM4</h4>
 
-    <table border="1">
+    <table class="table">
         <thead>
             <tr>
                 <th>NOMBRE</th>
                 <th>MATERIA</th>
                 <th>CALIFICACION</th>
+                <th>IMAGENES</th>
             </tr>
         </thead>
         <tbody>
@@ -25,30 +34,26 @@
                 <td>ALEJANDRO</td>
                 <td>PW</td>
                 <td>3</td>
+                <td><img src="imagenes/papitas.jpg" alt="Papitas" width="75" height="75"></td>
+                
             </tr>
             <tr>
                 <td>EMILIANO</td>
                 <td>BDD</td>
                 <td>9</td>
+                <td><img src="imagenes/pepsi.jpg" alt="pepsi"  width="75" height="75"></td>
+        
             </tr>
             <tr>
                 <td>ERICK</td>
                 <td>QUIMICA</td>
                 <td>6</td>
+                <td><img src="imagenes/ice.jpg" alt="ice"  width="75" height="75"></td>
+                
             </tr>
+            
         </tbody>
     </table>
-
-    
-    <div class="contenedor">
-
-        <div class="ficha">
-        <p class="titulo">PAPITAS</p>
-        <p class="imagen"><img src="imagenes/papitas.jpg"></p>
-        <p class="descripcion">Superpapas sin transgénicos</p>
-        <p class="precio">$49.00<span class="moneda">USD</span></p>
-
-    </div>
 
 </body>
 </html>

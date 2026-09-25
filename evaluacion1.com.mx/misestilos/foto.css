@@ -1,0 +1,12 @@
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.ficha {
+   -webkit-border-radius: 70px 70px 70px 70px;
+-moz-border-radius: 70px 70px 70px 70px;
+border-radius: 70px 70px 70px 70px;
+}
